@@ -47,3 +47,11 @@ var searchURL = url.format(options);
 
 var app; // Create server here
 app.listen(8080);
+
+quote.ejs
+
+<h2>Quote by <%=  %></h2>
+
+<blockquote>
+  <%= quote %>
+</blockquote>
